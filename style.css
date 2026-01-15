@@ -19,13 +19,27 @@ header, main, footer{
 
 header{
     background-color: aquamarine;
+}
 
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li{
+    list-style: none;
+    background-color: black;
+}
+
+header nav ul li a{
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
 }
 
 main{
     background-color: bisque;
     flex-grow: 1;
-
 }
 
 footer{
